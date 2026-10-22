@@ -1,0 +1,23 @@
+{
+   "name": "Codebase Onboarding Trail",
+   "version": "1.0.0",
+   "description": "Connect a GitHub repo; senior devs pin breadcrumb notes to specific files/functions that new hires see when opening that file.",
+   "keywords": [
+      "node js",
+      "javascript"
+   ],
+   "license": "ISC",
+   "author": "aliya syed",
+   "type": "commonjs",
+   "main": "index.js",
+   "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+   },
+   "dependencies": {
+      "dotenv": "^18.0.8",
+      "express": "^5.3.0",
+      "mongoose": "^9.11.3",
+      "nodemon": "^3.1.14"
+   }
+}
